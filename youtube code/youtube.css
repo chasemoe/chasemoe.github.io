@@ -22,7 +22,7 @@ section{
 nav{
 	display:flex;
 	justify-content: space-between;
-	align-tiems:center;
+	align-items:center;
 	height:60px;
 	background-color:#FFFFFF;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
@@ -79,6 +79,11 @@ margin:45px 0px 25px;
 	left:13%;
 	top:42%;
 	transform:translate(-13%,42%);
+}
+.footer {
+position: center;
+padding:16px;
+color:#000000;
 }
 
 
