@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-color:f6f5f5;
+	background-color:#33DA91;
 	margin:0px;
 	padding:0px;
 }
@@ -14,7 +14,76 @@ a{
 section{
 	width:100%;
 	height:95vh;
-	background-image:url(chasemoe.github.io/copy_of_winterfest_2021);
+	background-image:url(iCloud Drive/Desktop/chasemoe.github.io/copy_of_winterfest_2021);
 	background-repeat:no-repeat;
 	background-size:cover;
+	position: relative;
 }
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-tiems:center;
+	height:60px;
+	background-color:#FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+
+}
+nav ul {
+		display:flex;
+}
+nav ul li a {
+	margin: 30px;
+	font-family: myriad pro regular;
+	color:#505050;
+	font-size:15px;
+	font-weight:700;
+}
+.logo{
+	font-family: Times New Roman;
+	color:#000000;
+	font-size:22px;
+	height:60px;
+
+}
+.active{
+	font-weight:bold;
+	color:#2a2d2a;
+}
+.text-container p:nth-child(1){
+font-family: calibri;
+font-weight:bold;
+color:#6d6d6d;
+font-size:22px;
+}
+.text-container p:nth-child(2){
+	font-family: calibri;
+font-weight:bold;
+letter-spacing:1px;
+color:#1a1a1a;
+font-size:22px;
+}
+.text-container p:nth-child(3){
+	font-family: myriad pro regular;
+font-weight:bold;
+letter-spacing:1px;
+color:#1a1a1a;
+font-size:30px;
+}
+.text-container p{
+line-height:0px;
+margin:45px 0px 25px;
+}
+.text-container{
+	position: absolute;
+	left:13%;
+	top:42%;
+	transform:translate(-13%,42%);
+}
+
+
+
+
+
+
+
